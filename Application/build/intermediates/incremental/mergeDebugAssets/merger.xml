@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\assets"/><source path="E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\build\intermediates\shader_assets\debug\compileDebugShaders\out"/></dataSet><dataSet config="debug"><source path="E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\debug\assets"/></dataSet></merger>

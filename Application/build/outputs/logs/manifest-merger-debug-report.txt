@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:1-45:12
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:1-45:12
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:1-45:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7afb3455f068b992e071d5b9b6ddc2b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\93df43a8b1d2744ce3fa9bc8e158ff7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7e469880aea3df0e3dcde7af346536b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\887571f638537de952e6665d6db34b9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d75d319cf178e397011751f570b2ba0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b0ec389b61548746076354b472d9a464\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e1a6baa828aa6b9130b3bbec80911b66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\24104f9f25df74289ed326666b58dc45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fa9d0b16026bdcea7eb2731264c08cc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\60ba596c2146dd57ad548f685e340740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7ae157c0f6082f054a8833f514366b54\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\eaf3da5a13fe19a2513b5a1c31e51248\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:1-45:12
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:1-45:12
+	package
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:18:5-47
+	android:versionName
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:20:5-30
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:19:5-28
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:24:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:25:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:27:22-79
+application
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:30:5-43:19
+	android:label
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:30:18-44
+	android:theme
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:33:9-45
+activity#com.example.android.camera2video.CameraActivity
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:35:9-41:20
+	android:label
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:36:19-51
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:35:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7afb3455f068b992e071d5b9b6ddc2b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7afb3455f068b992e071d5b9b6ddc2b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\93df43a8b1d2744ce3fa9bc8e158ff7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\93df43a8b1d2744ce3fa9bc8e158ff7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7e469880aea3df0e3dcde7af346536b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7e469880aea3df0e3dcde7af346536b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\887571f638537de952e6665d6db34b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\887571f638537de952e6665d6db34b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d75d319cf178e397011751f570b2ba0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d75d319cf178e397011751f570b2ba0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b0ec389b61548746076354b472d9a464\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b0ec389b61548746076354b472d9a464\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e1a6baa828aa6b9130b3bbec80911b66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e1a6baa828aa6b9130b3bbec80911b66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\24104f9f25df74289ed326666b58dc45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\24104f9f25df74289ed326666b58dc45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fa9d0b16026bdcea7eb2731264c08cc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fa9d0b16026bdcea7eb2731264c08cc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\60ba596c2146dd57ad548f685e340740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\60ba596c2146dd57ad548f685e340740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7ae157c0f6082f054a8833f514366b54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7ae157c0f6082f054a8833f514366b54\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\eaf3da5a13fe19a2513b5a1c31e51248\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\eaf3da5a13fe19a2513b5a1c31e51248\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		ADDED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\androidstudio\gyro_rec\Camera2Video_gyro_capture\Application\src\main\AndroidManifest.xml

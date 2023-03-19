@@ -15,7 +15,7 @@
 
 
 ---
-- misc
+## misc
  - mi9の場合だと、データ保存先は　PC\MI 9\内部共有ストレージ\Pictures\Recorder
  - camera2videoにonSensorChangedを追記しただけではジャイロを取得できない。sensorMangerを書かないといけない 
  - このままではNDKが使われてないと思ってたが、bundleのNDKではエラーが出たので外部のndkを指定した
