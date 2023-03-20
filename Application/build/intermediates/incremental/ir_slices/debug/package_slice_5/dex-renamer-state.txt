@@ -1,4 +1,4 @@
-#Sun Mar 19 22:16:09 JST 2023
+#Mon Mar 20 09:34:47 JST 2023
 base.0=E\:\\androidstudio\\gyro_rec\\Camera2Video_gyro_capture\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

@@ -164,10 +164,7 @@ public class Camera2VideoFragment extends Fragment
     private Long sensorRSSkew;
     private double gyroTimeStamp;
     private double frameTimeStamp;
-    private int frameTimeStamp_offset_flag = 0;
-    private double frameTimeStamp_offset_between_gyro=0;
     private double frameTimeStamp_process;
-    private double frameTimeStamp_previous = 0;
     private int frame_count = 0;
     private int frame_count_process = 0;
 
@@ -883,7 +880,7 @@ public class Camera2VideoFragment extends Fragment
         try {
             mGyroFile = new PrintStream(getOutputGyroFile());
             //mGyroFile.append("Time, GyroX, GyroY, GyroZ\n");
-            mGyroFile.append("Time\n");
+            mGyroFile.append("time, gyr_x, gyr_y, gyr_z\n");
         } catch(IOException e) {
             Log.d(TAG, "Unable to create acquisition file");
             return;
@@ -895,7 +892,7 @@ public class Camera2VideoFragment extends Fragment
         try {
             mFrameFile = new PrintStream(getFrameTimeStampFile());
             //mFrameFile.append("FrameNumber, Time, Exposure, Sensitivity, FrameDuration, Skew\n");
-            mFrameFile.append("FrameNumber\n");
+            mFrameFile.append("index, time, expo\n");
         } catch(IOException e) {
             Log.d(TAG, "Unable to create acquisition file frame");
             return;
@@ -1024,17 +1021,7 @@ public class Camera2VideoFragment extends Fragment
 
                 // image time stamp
                 frameTimeStamp = image.getTimestamp()/1000000000.0;
-
-                // timestamp correction --------------------------------------------------tentative
-                if(frameTimeStamp_offset_flag == 0){
-
-                    frameTimeStamp_offset_flag = 1;
-                    if(abs(frameTimeStamp - gyroTimeStamp) > 2){ // if diferrence is more than 2 seconds
-                        frameTimeStamp_offset_between_gyro = gyroTimeStamp - frameTimeStamp; //calc offset between gyro
-                    }
-                }
-                frameTimeStamp =  frameTimeStamp_offset_between_gyro + frameTimeStamp; // add offest
-                // timestamp correction --------------------------------------------------tentative
+                sensorExposure = sensorExposure / 1000;
 
 
                 Log.d("sensorval_time", "timstamp in Listener: " + frameTimeStamp + ", " + frame_count);
@@ -1045,8 +1032,7 @@ public class Camera2VideoFragment extends Fragment
                 if(mIsRecordingVideo) {
                     mFrameFile.append(frame_count + "," +
                             frameTimeStamp + "," +
-                            sensorExposure + "," +
-                            frameDuration + "\n");
+                            sensorExposure + "\n");
                 }
 
                 // image data

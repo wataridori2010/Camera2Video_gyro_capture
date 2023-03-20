@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 19 22:16:10 JST 2023
+#Mon Mar 20 09:34:48 JST 2023
 1.base=E\:\\androidstudio\\gyro_rec\\Camera2Video_gyro_capture\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 2.path=classes.dex
 0.baseType=DIRECTORY
