@@ -2,7 +2,7 @@
 
 - This app is based on "old" Android Camera2Video Sample app
 - But you can capture both of video and IMU data at the same time.
-<img src="img/sc.jpg" width="640" height="400" >
+<img src="screenshots/sc.jpg" width="640" height="400" >
 
 
 ## Environments
